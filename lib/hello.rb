@@ -9,7 +9,7 @@ def hello_t(array)
 end
 
 hello_t(["tim","tom","jim"]) do |name|
-  if name.starts_with?("t")
+  if name.start_with?("t")
     puts "hi #{name}"
   end
 end
